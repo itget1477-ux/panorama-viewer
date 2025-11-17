@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Panorama Viewer</title>
+  <style>
+    body, html { margin:0; height:100%; }
+    #viewer { width:100%; height:100%; border:none; }
+    #logo {
+      position:absolute; top:10px; left:10px;
+      z-index:1000; /* keeps it above iframe */
+    }
+    #logo img { height:100px; }
+  </style>
+</head>
+<body>
+  <div id="logo">
+    <img src="C:\Users\HEMANT\Desktop\New folder (2)\logo.png" alt="Company Logo">
+  </div>
+  <iframe id="viewer" src="https://fehogal.shapespark.com/panorama03/"></iframe>
+</body>
+</html>
